@@ -1,13 +1,22 @@
-<h1>Second page</h1>
+<div id="taskBody">
+
 
 
 <div ng-controller="tasksController">
+
+<div class="container">
+		<div class="jumbotron">
+		<h1><i class="fa fa-university" aria-hidden="true"></i> Your todo-list!</h1>
+			
+</div>
+
 	<form id="tsk" name="tsk" ng-submit="addTask()">
-	<input class="col-lg-4" type="text" name="newTask" ng-model="newTask" placeholder="Set a task!" required="">
-	<button class="col-lg-2 ng-disabled="tsk.$invalid">Submit</button>
+	<input id="imp"  class="col-lg-4" type="text" name="newTask" ng-model="newTask" placeholder="Set a task!" required="">
+	<button class="col-lg-2 btn btn-warning" >Submit</button>
+	
 	</form>
 	<div>
-		<button class="col-lg-2" id="erase" ng-click="erase()">Erase Completed Tasks</button>
+		<button class="col-lg-2 btn btn-danger"  ng-click="erase()">Erase Completed Tasks</button>
 	</div>
 	<br>
 	<hr>
@@ -16,11 +25,12 @@
 	      <li ng-repeat="task in tasks">
 	      <input type="checkbox" ng-model="task.done">
 
-	      <span ng-class="{'done':task.done}">{{task.title}}</span>
+	      <span class="txt" ng-class="{'done':task.done} ">{{task.title}}</span>
 		
 	     </li>
 
     </ul>
     </div>
+</div>
 </div>
 

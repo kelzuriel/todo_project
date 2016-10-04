@@ -1,9 +1,48 @@
 .done{
-	text-decoration: line-through; color:green;
+	text-decoration: line-through; color:green !important;
+}
+#pannel{
+	background-color: rgba(128,128,128,0.2)
+	
+
+}
+
+.jumbotron{
+	color: orange;
+	background-color: #696969;
+	margin-bottom: 100px;
+}
+#imp{
+	margin-right:170px;
+	margin-left:20px;
+}
+#p{
+	color: orange;
+	margin-right: 200px;
+	margin-left: 150px;
 }
 /*#erase{
 	float:right
 }*/
 #tsk{
 	padding: ;
+}
+.txt{
+	color: orange;
+}
+h4{
+	text-align: center;
+}
+button{
+	margin-right: 5px ;
+}
+body{
+	background: url(https://images.unsplash.com/photo-1465479423260-c4afc24172c6?dpr=1);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+hr{
+
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 5px solid rgba(0.0.0.0.4)
 }

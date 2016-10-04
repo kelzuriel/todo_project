@@ -5,9 +5,9 @@ app.config(function($routeProvider){
 
 	$routeProvider
 
-	.when("/home",{
+	.when("/",{
 		templateUrl: "pages/home.html",
-		controller: "mainController"
+		// controller: "mainController"
 
 	})
 	.when("/tasks",{
@@ -17,16 +17,16 @@ app.config(function($routeProvider){
 	})
 });
 
-app.controller("mainController", ["$scope", function(s){
+// app.controller("mainController", ["$scope", function(s){
 
-console.log("Conected");
+// console.log("Conected");
 
-}]);
+// }]);
 
 app.controller("tasksController", ["$scope", function(s){
 
 s.tasks = [
-{"title": "Build le app!", "done": false}
+{"title": "Build the app!", "done": false}
 
 ];
 
