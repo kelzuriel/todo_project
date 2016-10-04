@@ -7,7 +7,7 @@ app.config(function($routeProvider){
 
 	.when("/",{
 		templateUrl: "pages/home.html",
-		// controller: "mainController"
+		
 
 	})
 	.when("/tasks",{
@@ -17,11 +17,7 @@ app.config(function($routeProvider){
 	})
 });
 
-// app.controller("mainController", ["$scope", function(s){
 
-// console.log("Conected");
-
-// }]);
 
 app.controller("tasksController", ["$scope", function(s){
 

@@ -2,8 +2,7 @@
 	text-decoration: line-through; color:green !important;
 }
 #pannel{
-	background-color: rgba(128,128,128,0.2)
-	
+	background-color: rgba(128,128,128,0.2);	
 
 }
 
@@ -21,12 +20,7 @@
 	margin-right: 200px;
 	margin-left: 150px;
 }
-/*#erase{
-	float:right
-}*/
-#tsk{
-	padding: ;
-}
+
 .txt{
 	color: orange;
 }
